@@ -102,6 +102,7 @@ app.post("/login", async (req, res) => {
     address : String,
     photos : [String],
     perks : [String],
+    category : String,
     description : String,
     price: String,
     MaxGuests: String,
